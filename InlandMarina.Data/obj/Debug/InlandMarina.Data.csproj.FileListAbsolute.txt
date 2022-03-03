@@ -1,0 +1,46 @@
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\bin\Debug\InlandMarina.Data.dll.config
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\bin\Debug\InlandMarina.Data.dll
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\bin\Debug\InlandMarina.Data.pdb
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\bin\Debug\EntityFramework.dll
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\bin\Debug\EntityFramework.xml
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.csproj.AssemblyReference.cache
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.csproj.CopyComplete
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.dll
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.pdb
+C:\Users\micha\source\repos\InlandMarina\InlandMarina.Data\bin\Debug\AspNet.ScriptManager.jQuery.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\InlandMarina.Data.dll.config
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\InlandMarina.Data.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\InlandMarina.Data.pdb
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\AngleSharp.Css.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\AngleSharp.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\AspNet.ScriptManager.jQuery.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\EntityFramework.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\Microsoft.Security.Application.HtmlSanitization.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Buffers.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Security.AccessControl.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Security.Permissions.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\AngleSharp.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\AngleSharp.Css.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\EntityFramework.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\Microsoft.Security.Application.HtmlSanitization.pdb
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Buffers.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Security.AccessControl.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Security.Permissions.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.csproj.AssemblyReference.cache
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.csproj.CoreCompileInputs.cache
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.csproj.CopyComplete
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.dll
+C:\Users\micha\Items Not Shared\InlandMarina\InlandMarina.Data\obj\Debug\InlandMarina.Data.pdb

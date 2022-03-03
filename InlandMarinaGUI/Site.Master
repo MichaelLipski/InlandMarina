@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="InlandMarinaGUI.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Inland Lake Marina</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+        crossorigin="anonymous">
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <img alt="" class="auto-style1" src="Images/inlandbanner_v3_800x100.jpg" />
+        <nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
+            <a class="banner-logo" href="/"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-light">
+                        <i class="fas fa-bars" style="color:#000; font-size:28px;"></i>
+                    </span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id ="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li.no-bullets class="nav-item active">
+                        <a class="nav-link text-light" runat="server" href="~/">Home</a>
+                    </li.no-bullets>
+                    <li.no-bullets class="nav-item">
+                        <a class="nav-link text-light" runat="server" href="~/Slips">| Available Slips</a>
+                    </li.no-bullets>
+                    <li.no-bullets class="nav-item">
+                        <a class="nav-link text-light" runat="server" href="~/Contact">| Contact Us</a>
+                    </li.no-bullets>
+                    <li.no-bullets class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" runat="server">
+                            |  Lease a Slip  
+                        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Secure/LeaseSlip" runat="server">Lease Now</a>
+                    </div>
+                    </li.no-bullets>
+                    <li.no-bullets class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="A1" role="button" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" runat="server">
+                            |  View Docks Information 
+                        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Secure/Docks" runat="server">See Docks</a>
+                    </div>
+                    </li.no-bullets>
+                    <li.no-bullets class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="A2" role="button" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" runat="server">
+                            |  View My Leases 
+                        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Secure/MyLeases" runat="server">See My Leases</a>
+                    </div>
+                    </li.no-bullets>
+                </ul>
+                <span id="uxWelcome" runat="server" class="navbar-text"></span>
+                <ul class="navbar-nav rm">
+                    <li.no-bullets class="nav-item">Register
+                        <a class="nav-link text-light" runat="server" 
+                            href="~/Registration" title="Register">
+                            <span class="fa fa-user"></span>
+                        </a>
+                    </li.no-bullets>
+                    <li.no-bullets class="nav-item">Login/Logout
+                        <a class="nav-link text-light" runat="server" title="Login"
+                            id="uxLogin" onserverclick= "HandleLoginClick" enableviewstate= "false">
+                            <span class="fa fa-sign-in-alt"></span>
+                        </a>
+                    </li.no-bullets>
+                </ul>
+            </div>           
+        </nav>
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Inland Lake Marina</p>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>
